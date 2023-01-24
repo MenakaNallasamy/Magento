@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MagentoSuite">
+<listeners>
+	<listener class-name="utilities.ExtentReportManager"></listener>
+</listeners>
+  <test thread-count="5" name="MagentoTest">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+  <class name="testCases.TC_001_NewCustomerAcctTest"/>
+      <class name="testCases.TC_002_SignInTest"/>
+         <!-- <class name="testCases.TC_003_SigninDDT"/>-->
+         
+    </classes>
+  </test> <!-- MagentoTest -->
+</suite> <!-- MagentoSuite -->

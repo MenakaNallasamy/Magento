@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MagentoSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="MagentoTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_001_NewCustomerAcctTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Test_NewCustomer_Acct"/>
+        </methods>
+      </class> <!-- testCases.TC_001_NewCustomerAcctTest -->
+      <class name="testCases.TC_002_SignInTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Test_Signin"/>
+        </methods>
+      </class> <!-- testCases.TC_002_SignInTest -->
+    </classes>
+  </test> <!-- MagentoTest(failed) -->
+</suite> <!-- Failed suite [MagentoSuite] -->

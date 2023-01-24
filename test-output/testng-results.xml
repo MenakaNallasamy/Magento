@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-21T16:55:00 IST" name="MagentoSuite" finished-at="2023-01-21T16:55:24 IST" duration-ms="23645">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_NewCustomerAcctTest.Test_NewCustomer_Acct()[pri:0, instance:testCases.TC_001_NewCustomerAcctTest@4fb61f4a]" name="Test_NewCustomer_Acct" class="testCases.TC_001_NewCustomerAcctTest"/>
+        <method signature="TC_002_SignInTest.Test_Signin()[pri:0, instance:testCases.TC_002_SignInTest@9f116cc]" name="Test_Signin" class="testCases.TC_002_SignInTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_001_NewCustomerAcctTest.Test_NewCustomer_Acct()[pri:0, instance:testCases.TC_001_NewCustomerAcctTest@4fb61f4a]" name="Test_NewCustomer_Acct" class="testCases.TC_001_NewCustomerAcctTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_002_SignInTest.Test_Signin()[pri:0, instance:testCases.TC_002_SignInTest@9f116cc]" name="Test_Signin" class="testCases.TC_002_SignInTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-01-21T16:55:00 IST" name="MagentoTest" finished-at="2023-01-21T16:55:24 IST" duration-ms="23645">
+      <class name="testCases.TC_002_SignInTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_SignInTest@9f116cc]" started-at="2023-01-21T16:55:14 IST" name="setup" finished-at="2023-01-21T16:55:20 IST" duration-ms="5358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Signin()[pri:0, instance:testCases.TC_002_SignInTest@9f116cc]" started-at="2023-01-21T16:55:20 IST" name="Test_Signin" finished-at="2023-01-21T16:55:23 IST" duration-ms="3613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Signin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_SignInTest@9f116cc]" started-at="2023-01-21T16:55:23 IST" name="tearDown" finished-at="2023-01-21T16:55:24 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_SignInTest -->
+      <class name="testCases.TC_001_NewCustomerAcctTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_NewCustomerAcctTest@4fb61f4a]" started-at="2023-01-21T16:55:00 IST" name="setup" finished-at="2023-01-21T16:55:08 IST" duration-ms="7865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_NewCustomer_Acct()[pri:0, instance:testCases.TC_001_NewCustomerAcctTest@4fb61f4a]" started-at="2023-01-21T16:55:08 IST" name="Test_NewCustomer_Acct" finished-at="2023-01-21T16:55:14 IST" duration-ms="5730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_NewCustomer_Acct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_NewCustomerAcctTest@4fb61f4a]" started-at="2023-01-21T16:55:14 IST" name="tearDown" finished-at="2023-01-21T16:55:14 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_NewCustomerAcctTest -->
+    </test> <!-- MagentoTest -->
+  </suite> <!-- MagentoSuite -->
+</testng-results>
